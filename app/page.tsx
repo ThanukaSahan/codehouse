@@ -1,7 +1,7 @@
 "use client";
 import population from "../data/population.json";
 import React from "react";
-import crypto from "crypto";
+
 
 export default function Home() {
   const [currentYear, setCurrentYear] = React.useState(0);
