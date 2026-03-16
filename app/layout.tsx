@@ -28,12 +28,12 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <header className="p-4 border-b border-gray-200 dark:border-gray-800">
-          {/* Your header content goes here */}
-          <nav className="max-w-3xl mx-auto font-semibold">My App Header</nav>
+          
+          <nav className="max-w-3xl mx-auto font-semibold">Demo App</nav>
         </header>
         {children}
         <footer className="p-6 border-t border-gray-200 dark:border-gray-800 text-center text-sm text-gray-600">
-          {/* Your footer content goes here */}
+          
           <p>&copy; {new Date().getFullYear()} My Next.js App</p>
         </footer>
       </body>
